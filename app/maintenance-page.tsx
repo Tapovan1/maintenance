@@ -21,36 +21,12 @@ export default function MaintenancePage() {
         </div>
 
         {/* Status Card */}
-        <Card className="bg-white shadow-lg border-0">
-          <CardContent className="p-6">
-            <div className="space-y-4">
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
-                <span className="text-slate-700 font-medium">Currently resolving issues</span>
-              </div>
-
-              <div className="space-y-3 text-sm text-slate-600">
-                <div className="flex items-center gap-3">
-                  <CheckCircle className="w-4 h-4 text-green-500" />
-                  <span>Database connectivity restored</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <CheckCircle className="w-4 h-4 text-green-500" />
-                  <span>Server performance optimized</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <AlertCircle className="w-4 h-4 text-orange-500" />
-                  <span>Finalizing security updates</span>
-                </div>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+       
 
         {/* Contact */}
         <div className="text-center space-y-2">
           <p className="text-slate-600">Need help?</p>
-          <p className="text-blue-600 font-medium">support@company.com</p>
+          <p className="text-blue-600 font-medium">Contact Developer Team</p>
         </div>
 
         {/* Footer */}
